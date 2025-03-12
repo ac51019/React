@@ -4,15 +4,15 @@ import React from 'react'
 function Banner() {
   return (
    
-          <div className="relative bg-blue-600 text-white py-20 px-6 text-center">
+          <div className="relative bg-gray-200  py-20 px-6 text-center">
+          <div className="container">
             <div className="max-w-4xl mx-auto">
-              <h1 className="text-4xl md:text-6xl font-bold">Welcome to Our Website</h1>
-              <p className="mt-4 text-lg md:text-xl">
-                Discover amazing features and take your experience to the next level.
+              <h1 className="text-4xl md:text-6xl text-black font-serif text-bold">New Collections</h1>
+              <p className="mt-6 text-lg md:text-xl text-gray-400">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe <br></br>voluptas ut dolorum consequuntur, adipisci repellat! Eveniet<br></br> commodi voluptatem voluptate, eum minima, in suscipit explicabo <br></br>voluptatibus harum, quibusdam ex repellat eaque!
               </p>
-              <button className="mt-6 bg-white text-blue-600 px-6 py-3 rounded-xl font-semibold shadow-lg hover:bg-gray-200 transition">
-                Get Started
-              </button>
+             
+            </div>
             </div>
           </div>
         );

@@ -3,6 +3,7 @@ import Footer from './Footer'
 import Navbar from './Navbar'
 import Banner from './Banner'
 import Card from './Card'
+import Feacher from './Feacher'
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
   <Navbar/>
   <Banner/>
   <Card/>
+  <Feacher/>
   <Footer/>
 
    </>
