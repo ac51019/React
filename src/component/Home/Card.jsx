@@ -62,7 +62,9 @@ export default function ReactSlider() {
   ];
 
   return (
-    <div className=" w-[100vw] h-[55vw] mx-auto mt-8 bg-gray-200">
+
+    
+    <div className=" w-[100vw] lg:h-[55vw] md:h-[85vw] sm:h-[95vw] mx-auto mt-8 bg-gray-200 ">
     <div className="container">
       <Slider {...settings}>
         {data.map((item, index) => (
